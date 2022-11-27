@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filterable Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="header">Filterable Gallery</h1>
+    <h3 class="header addpro">Add Product</h3>
+    <section class="container1">
+        Enter Image URL 
+        <input type="text" id="img_url" autocomplete="off" >
+        Select Type 
+        <select name="select" id="select_item">
+            <option value="All" class="select-opt">All</option>
+            <option value="Headphones" class="select-opt">Headphones</option>
+            <option value="Laptops" class="select-opt">Laptops</option>
+            <option value="Mobiles" class="select-opt">Mobiles</option>
+        </select>
+
+        <div id="button_add"><button id="btn_add">Add</button></div>
+       <section id="error_msg"></section>
+    </section>
+    <table>
+        <tbody id="body"></tbody>
+    </table>
+
+    <div class="container">
+
+        <div class="menu">
+            <a href="#" class="btn" data-filter="all">All</a>
+            <a href="#" class="btn" data-filter="headphone">Headphone</a>
+            <a href="#" class="btn" data-filter="laptops">Laptops</a>
+            <a href="#" class="btn" data-filter="mobiles">Mobiles</a>
+        </div>
+
+        <div class="box" id="store-items">
+
+            <div class="store-item laptops">
+                <img src="laptop.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobiles">
+                <img src="phone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item headphone">
+                <img src="headphone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobiles">
+                <img src="phone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item headphone">
+                <img src="headphone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item laptops">
+                <img src="laptop.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobiles">
+                <img src="phone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item headphone">
+                <img src="headphone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobiles">
+                <img src="phone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item laptops">
+                <img src="laptop.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobiles">
+                <img src="phone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item headphone">
+                <img src="headphone.jpg" class="store-img" alt="">
+            </div>
+
+            <div class="store-item mobiles">
+                <img src="phone.jpg" class="store-img" alt="">
+            </div>
+
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

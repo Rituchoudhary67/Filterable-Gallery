@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.image{
+    height: 100px;
+    width:100px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(43, 171, 175);
+    color: white;
+    padding: 15px;
+    font-size: 3pc;
+}
+.addpro {
+background-color: gray;
+font-size: 2pc;
+}
+body {
+    background-color: gray;
+}
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    color: white;
+    font-size: 1.5pc;
+   /* background-color: red; */
+}
+#img_url ,#select_item{
+    margin-left: -100px;
+    border-radius: 30px;
+}
+#btn_add {
+   background-color: blue;
+   color: white;
+   height: 30px;
+   width: 70px;
+   border: none;
+   border-radius: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 4rem auto;
+    width: 90%;
+}
+.menu {
+    margin: 1.5rem 0;
+}
+
+.menu a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    background-color: blue;
+    color: white;
+    padding: 8px 22px;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.store-item {
+    height: 300px;
+    width: 300px;
+    padding: 1rem;
+}
+.store-item img {
+    width: 100%;
+    display: block;
+    box-shadow: 7px 7px 20px gray;
+}
